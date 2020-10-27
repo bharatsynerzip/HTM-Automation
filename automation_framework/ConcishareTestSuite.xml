@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AutoiQ Automation Suite" parallel="false">
+	<test name="AutoiQ Automation Suite" preserve-order="true">
+		<classes>
+			<class name="com.concishare.test.E2EScenario.ConcishareTestCase_1">
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- <parameter name="pdfngreport-properties" value="src/resources/config/pdfngreport.properties" 
+		/> <listeners> <listener class-name="com.uttesh.pdfngreport.PDFReportListener" 
+		/> <listener class-name="org.uncommons.reportng.HTMLReporter" /> <listener 
+		class-name="org.uncommons.reportng.JUnitXMLReporter" /> </listeners> -->
+</suite>

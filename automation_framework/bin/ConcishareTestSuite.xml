@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AutoiQ Automation Suite" parallel="false">
+	<test name="AutoiQ Automation Suite" preserve-order="true">
+		<classes>
+			<class name="com.concishare.base.DemoTest">
+				<methods>
+					<include name="open" />
+				</methods>
+			</class>
+		<!--	<class name="com.autoiq.tests.credentials.TestManageCredential" />
+			
+		 	<class name="com.autoiq.tests.dashboard.TestDashboard" />
+			<class name="com.autoiq.tests.processes.TestOverview" />
+			<class name="com.autoiq.tests.processes.TestCreateProcess" />
+			<class name="com.autoiq.tests.schedules.TestCreateSchedule" />
+			<class name="com.autoiq.tests.schedules.TestCreateMonthlySchedule" />
+			<class name="com.autoiq.tests.schedules.TestSchedule" />
+			<class name="com.autoiq.tests.definitions.TestEditDefinition" />
+			<class name="com.autoiq.tests.definitions.TestDefinition" />
+			<class name="com.autoiq.tests.definitions.TestDefinitionWizardPage1" />
+			<class name="com.autoiq.tests.definitions.TestDefinitionWizardPage2" />
+			<class name="com.autoiq.tests.reports.TestAllReports" />
+			<class name="com.autoiq.tests.reports.TestBuildCustomReport" />
+			<class name="com.autoiq.tests.businessobjects.TestCreateBusinessObjects" />
+			<class name="com.autoiq.tests.businessobjects.TestBusinessObjectsOverview" />
+			<class name="com.autoiq.tests.credentials.TestCreateCredentialPool" />
+			<class name="com.autoiq.tests.credentials.TestCredentialsOverview" />
+			<class name="com.autoiq.tests.resources.TestResourcesOverview" />
+			<class name="com.autoiq.tests.resources.TestCreateResourcePool" />
+			<class name="com.autoiq.tests.resources.TestResourcesOverview" />
+			<class name="com.autoiq.tests.applications.TestApplicationsOverview" />
+			<class name="com.autoiq.tests.applications.TestCreateApplication" /> -->
+		</classes>
+	</test> <!-- Test -->
+
+<!-- 	<parameter name="pdfngreport-properties" value="src/resources/config/pdfngreport.properties" />
+	<listeners>
+		<listener class-name="com.uttesh.pdfngreport.PDFReportListener" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners> -->
+</suite>
